@@ -15,6 +15,7 @@
 		EA6DF4711A81EF8B005FA44A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6DF4701A81EF8B005FA44A /* Images.xcassets */; };
 		EA6DF4741A81EF8B005FA44A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6DF4721A81EF8B005FA44A /* LaunchScreen.xib */; };
 		EA6DF4801A81EF8C005FA44A /* CDYFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF47F1A81EF8C005FA44A /* CDYFoundationTests.m */; };
+		EA6DF48D1A81F1DB005FA44A /* CDYFilledCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF48C1A81F1DB005FA44A /* CDYFilledCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		EA6DF4791A81EF8B005FA44A /* CDYFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDYFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6DF47E1A81EF8C005FA44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA6DF47F1A81EF8C005FA44A /* CDYFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDYFoundationTests.m; sourceTree = "<group>"; };
+		EA6DF48B1A81F1DB005FA44A /* CDYFilledCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYFilledCollectionViewController.h; sourceTree = "<group>"; };
+		EA6DF48C1A81F1DB005FA44A /* CDYFilledCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYFilledCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 		EA6DF4541A81EF8B005FA44A = {
 			isa = PBXGroup;
 			children = (
+				EA6DF4891A81F1B8005FA44A /* Core */,
 				EA6DF45F1A81EF8B005FA44A /* CDYFoundation */,
 				EA6DF47C1A81EF8C005FA44A /* CDYFoundationTests */,
 				EA6DF45E1A81EF8B005FA44A /* Products */,
@@ -122,6 +126,23 @@
 				EA6DF47E1A81EF8C005FA44A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA6DF4891A81F1B8005FA44A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EA6DF48A1A81F1B8005FA44A /* ViewControllers */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EA6DF48A1A81F1B8005FA44A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA6DF48B1A81F1DB005FA44A /* CDYFilledCollectionViewController.h */,
+				EA6DF48C1A81F1DB005FA44A /* CDYFilledCollectionViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +247,7 @@
 			files = (
 				EA6DF4661A81EF8B005FA44A /* AppDelegate.m in Sources */,
 				EA6DF4691A81EF8B005FA44A /* MasterViewController.m in Sources */,
+				EA6DF48D1A81F1DB005FA44A /* CDYFilledCollectionViewController.m in Sources */,
 				EA6DF4631A81EF8B005FA44A /* main.m in Sources */,
 				EA6DF46C1A81EF8B005FA44A /* DetailViewController.m in Sources */,
 			);
