@@ -14,18 +14,10 @@
  * limitations under the License.
  */
 
+#import "CDYFilledCollectionViewController.h"
 
-#import <UIKit/UIKit.h>
+@interface CDYArrayCollectionViewController : CDYFilledCollectionViewController
 
-@interface CDYFilledCollectionViewController : UIViewController
-
-@property (nonatomic, strong) IBOutlet UICollectionView *collectionView;
-
-- (void)setPresentationCellNib:(UINib *)nib;
-- (NSInteger)numberOfSections;
-- (NSInteger)numberOfItemsInSection:(NSInteger)section;
-- (void)configureCell:(UICollectionViewCell *)cell atIndexPath:(NSIndexPath *)indexPath withObject:(id)object;
-- (id)objectAtIndexPath:(NSIndexPath *)indexPath;
-- (void)didSelectedObject:(id)object atIndexPath:(NSIndexPath *)indexPath;
+- (void)presentElements:(NSArray *)elements;
 
 @end

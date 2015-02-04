@@ -12,4 +12,9 @@ Pod::Spec.new do |spec|
     ss.platform = :ios, '7.0'
     ss.source_files = 'Core/ViewControllers/*.{h,m}'
   end
+
+  spec.subspec 'Views' do |ss|
+    ss.platform = :ios, '7.0'
+    ss.source_files = 'Core/Views/*.{h,m}'
+  end
 end

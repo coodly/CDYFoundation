@@ -14,18 +14,12 @@
  * limitations under the License.
  */
 
-
 #import <UIKit/UIKit.h>
 
-@interface CDYFilledCollectionViewController : UIViewController
+@interface UIView (CDYLoadHelper)
 
-@property (nonatomic, strong) IBOutlet UICollectionView *collectionView;
-
-- (void)setPresentationCellNib:(UINib *)nib;
-- (NSInteger)numberOfSections;
-- (NSInteger)numberOfItemsInSection:(NSInteger)section;
-- (void)configureCell:(UICollectionViewCell *)cell atIndexPath:(NSIndexPath *)indexPath withObject:(id)object;
-- (id)objectAtIndexPath:(NSIndexPath *)indexPath;
-- (void)didSelectedObject:(id)object atIndexPath:(NSIndexPath *)indexPath;
++ (id)loadInstance;
++ (UIView *)loadViewFromXib:(NSString *)xibName;
++ (UINib *)viewNib;
 
 @end

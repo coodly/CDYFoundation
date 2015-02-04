@@ -17,7 +17,9 @@
 
 #import "CDYFilledCollectionViewController.h"
 
-@interface CDYFilledCollectionViewController ()
+NSString *const CDYFilledCollectionViewControllerCellIdentifier = @"CDYFilledCollectionViewControllerCellIdentifier";
+
+@interface CDYFilledCollectionViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
 
 @end
 
@@ -33,14 +35,52 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)setPresentationCellNib:(UINib *)nib {
+    [self.collectionView registerNib:nib forCellWithReuseIdentifier:CDYFilledCollectionViewControllerCellIdentifier];
 }
-*/
+
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+    return [self numberOfSections];
+}
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return [self numberOfItemsInSection:section];
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CDYFilledCollectionViewControllerCellIdentifier forIndexPath:indexPath];
+    id object = [self objectAtIndexPath:indexPath];
+
+    [self configureCell:cell atIndexPath:indexPath withObject:object];
+
+    return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    [collectionView deselectItemAtIndexPath:indexPath animated:YES];
+
+    id selected = [self objectAtIndexPath:indexPath];
+    [self didSelectedObject:selected atIndexPath:indexPath];
+}
+
+- (NSInteger)numberOfSections {
+    return 0;
+}
+
+- (NSInteger)numberOfItemsInSection:(NSInteger)section {
+    return 0;
+}
+
+- (void)configureCell:(UICollectionViewCell *)cell atIndexPath:(NSIndexPath *)indexPath withObject:(id)object {
+
+}
+
+- (id)objectAtIndexPath:(NSIndexPath *)indexPath {
+    return nil;
+}
+
+- (void)didSelectedObject:(id)object atIndexPath:(NSIndexPath *)indexPath {
+
+}
 
 @end
