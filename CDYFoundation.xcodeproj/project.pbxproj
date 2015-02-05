@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA6648FA1A835CAB008D3A8F /* CDYCoreDataChangeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6648F91A835CAB008D3A8F /* CDYCoreDataChangeAction.m */; };
 		EA6DF4631A81EF8B005FA44A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF4621A81EF8B005FA44A /* main.m */; };
 		EA6DF4661A81EF8B005FA44A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF4651A81EF8B005FA44A /* AppDelegate.m */; };
 		EA6DF4691A81EF8B005FA44A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF4681A81EF8B005FA44A /* MasterViewController.m */; };
@@ -19,6 +20,7 @@
 		EA6DF4901A81F2F1005FA44A /* CDYArrayCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF48F1A81F2F1005FA44A /* CDYArrayCollectionViewController.m */; };
 		EA6DF4981A81F619005FA44A /* UIView+CDYLoadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF4971A81F619005FA44A /* UIView+CDYLoadHelper.m */; };
 		EA6DF49A1A81F66D005FA44A /* CDYFoundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EA6DF4991A81F66D005FA44A /* CDYFoundation.podspec */; };
+		EA6DF4BE1A834F3B005FA44A /* CDYFetchedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF4BD1A834F3B005FA44A /* CDYFetchedCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA6648F81A835CAB008D3A8F /* CDYCoreDataChangeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYCoreDataChangeAction.h; sourceTree = "<group>"; };
+		EA6648F91A835CAB008D3A8F /* CDYCoreDataChangeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYCoreDataChangeAction.m; sourceTree = "<group>"; };
 		EA6DF45D1A81EF8B005FA44A /* CDYFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDYFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6DF4611A81EF8B005FA44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA6DF4621A81EF8B005FA44A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		EA6DF4961A81F619005FA44A /* UIView+CDYLoadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CDYLoadHelper.h"; sourceTree = "<group>"; };
 		EA6DF4971A81F619005FA44A /* UIView+CDYLoadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CDYLoadHelper.m"; sourceTree = "<group>"; };
 		EA6DF4991A81F66D005FA44A /* CDYFoundation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CDYFoundation.podspec; sourceTree = "<group>"; };
+		EA6DF4BC1A834F3B005FA44A /* CDYFetchedCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYFetchedCollectionViewController.h; sourceTree = "<group>"; };
+		EA6DF4BD1A834F3B005FA44A /* CDYFetchedCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYFetchedCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,10 @@
 			children = (
 				EA6DF48E1A81F2F1005FA44A /* CDYArrayCollectionViewController.h */,
 				EA6DF48F1A81F2F1005FA44A /* CDYArrayCollectionViewController.m */,
+				EA6648F81A835CAB008D3A8F /* CDYCoreDataChangeAction.h */,
+				EA6648F91A835CAB008D3A8F /* CDYCoreDataChangeAction.m */,
+				EA6DF4BC1A834F3B005FA44A /* CDYFetchedCollectionViewController.h */,
+				EA6DF4BD1A834F3B005FA44A /* CDYFetchedCollectionViewController.m */,
 				EA6DF48B1A81F1DB005FA44A /* CDYFilledCollectionViewController.h */,
 				EA6DF48C1A81F1DB005FA44A /* CDYFilledCollectionViewController.m */,
 			);
@@ -270,8 +280,10 @@
 				EA6DF4661A81EF8B005FA44A /* AppDelegate.m in Sources */,
 				EA6DF4901A81F2F1005FA44A /* CDYArrayCollectionViewController.m in Sources */,
 				EA6DF4691A81EF8B005FA44A /* MasterViewController.m in Sources */,
+				EA6648FA1A835CAB008D3A8F /* CDYCoreDataChangeAction.m in Sources */,
 				EA6DF48D1A81F1DB005FA44A /* CDYFilledCollectionViewController.m in Sources */,
 				EA6DF4631A81EF8B005FA44A /* main.m in Sources */,
+				EA6DF4BE1A834F3B005FA44A /* CDYFetchedCollectionViewController.m in Sources */,
 				EA6DF46C1A81EF8B005FA44A /* DetailViewController.m in Sources */,
 				EA6DF4981A81F619005FA44A /* UIView+CDYLoadHelper.m in Sources */,
 			);
@@ -466,6 +478,7 @@
 				EA6DF4851A81EF8C005FA44A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA6DF4861A81EF8C005FA44A /* Build configuration list for PBXNativeTarget "CDYFoundationTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +487,7 @@
 				EA6DF4881A81EF8C005FA44A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
