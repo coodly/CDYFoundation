@@ -30,6 +30,18 @@
     [self.collectionView reloadData];
 }
 
+- (void)removeObjectAtIndexPath:(NSIndexPath *)indexPath {
+    NSMutableArray *altered = [NSMutableArray arrayWithArray:self.elements];
+    NSMutableArray *subAltered = [NSMutableArray arrayWithArray:altered[indexPath.section]];
+    [subAltered removeObjectAtIndex:indexPath.row];
+    altered[indexPath.section] = subAltered;
+    [self setElements:altered];
+    [self.collectionView performBatchUpdates:^{
+        [self.collectionView deleteItemsAtIndexPaths:@[indexPath]];
+    } completion:^(BOOL finished) {
+    }];
+}
+
 - (NSInteger)numberOfSections {
     return self.elements.count;
 }

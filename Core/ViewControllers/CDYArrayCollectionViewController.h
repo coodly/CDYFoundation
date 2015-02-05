@@ -19,5 +19,6 @@
 @interface CDYArrayCollectionViewController : CDYFilledCollectionViewController
 
 - (void)presentElements:(NSArray *)elements;
+- (void)removeObjectAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
