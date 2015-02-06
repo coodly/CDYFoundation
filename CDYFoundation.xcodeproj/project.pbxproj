@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EA6648FA1A835CAB008D3A8F /* CDYCoreDataChangeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6648F91A835CAB008D3A8F /* CDYCoreDataChangeAction.m */; };
 		EA6649111A84993C008D3A8F /* NSString+CDYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6649101A84993C008D3A8F /* NSString+CDYUtils.m */; };
+		EA6649181A853441008D3A8F /* CDYConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6649171A853441008D3A8F /* CDYConstants.m */; };
 		EA6DF4631A81EF8B005FA44A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF4621A81EF8B005FA44A /* main.m */; };
 		EA6DF4661A81EF8B005FA44A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF4651A81EF8B005FA44A /* AppDelegate.m */; };
 		EA6DF4691A81EF8B005FA44A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF4681A81EF8B005FA44A /* MasterViewController.m */; };
@@ -39,6 +40,8 @@
 		EA6648F91A835CAB008D3A8F /* CDYCoreDataChangeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYCoreDataChangeAction.m; sourceTree = "<group>"; };
 		EA66490F1A84993C008D3A8F /* NSString+CDYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CDYUtils.h"; sourceTree = "<group>"; };
 		EA6649101A84993C008D3A8F /* NSString+CDYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CDYUtils.m"; sourceTree = "<group>"; };
+		EA6649161A853441008D3A8F /* CDYConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYConstants.h; sourceTree = "<group>"; };
+		EA6649171A853441008D3A8F /* CDYConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYConstants.m; sourceTree = "<group>"; };
 		EA6DF45D1A81EF8B005FA44A /* CDYFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDYFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6DF4611A81EF8B005FA44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA6DF4621A81EF8B005FA44A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +93,15 @@
 				EA6649101A84993C008D3A8F /* NSString+CDYUtils.m */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EA6649151A853425008D3A8F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EA6649161A853441008D3A8F /* CDYConstants.h */,
+				EA6649171A853441008D3A8F /* CDYConstants.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		EA6DF4541A81EF8B005FA44A = {
@@ -158,6 +170,7 @@
 		EA6DF4891A81F1B8005FA44A /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				EA6649151A853425008D3A8F /* Base */,
 				EA66490E1A84992E008D3A8F /* Extensions */,
 				EA6DF48A1A81F1B8005FA44A /* ViewControllers */,
 				EA6DF4951A81F5FC005FA44A /* Views */,
@@ -295,6 +308,7 @@
 				EA6DF4691A81EF8B005FA44A /* MasterViewController.m in Sources */,
 				EA6648FA1A835CAB008D3A8F /* CDYCoreDataChangeAction.m in Sources */,
 				EA6649111A84993C008D3A8F /* NSString+CDYUtils.m in Sources */,
+				EA6649181A853441008D3A8F /* CDYConstants.m in Sources */,
 				EA6DF48D1A81F1DB005FA44A /* CDYFilledCollectionViewController.m in Sources */,
 				EA6DF4631A81EF8B005FA44A /* main.m in Sources */,
 				EA6DF4BE1A834F3B005FA44A /* CDYFetchedCollectionViewController.m in Sources */,
