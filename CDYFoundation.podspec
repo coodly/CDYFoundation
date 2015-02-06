@@ -17,4 +17,9 @@ Pod::Spec.new do |spec|
     ss.platform = :ios, '7.0'
     ss.source_files = 'Core/Views/*.{h,m}'
   end
+
+  spec.subspec 'Extensions' do |ss|
+    ss.platform = :ios, '7.0'
+    ss.source_files = 'Core/Extensions/*.{h,m}'
+  end
 end
