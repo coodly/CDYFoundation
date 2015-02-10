@@ -23,6 +23,8 @@
 		EA6DF4981A81F619005FA44A /* UIView+CDYLoadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF4971A81F619005FA44A /* UIView+CDYLoadHelper.m */; };
 		EA6DF49A1A81F66D005FA44A /* CDYFoundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EA6DF4991A81F66D005FA44A /* CDYFoundation.podspec */; };
 		EA6DF4BE1A834F3B005FA44A /* CDYFetchedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6DF4BD1A834F3B005FA44A /* CDYFetchedCollectionViewController.m */; };
+		EA94CC961A89CA40000E7980 /* CDYUserInputSection.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94CC951A89CA40000E7980 /* CDYUserInputSection.m */; };
+		EA94CC991A89CBAD000E7980 /* CDYUserInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94CC981A89CBAD000E7980 /* CDYUserInputViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,10 @@
 		EA6DF4991A81F66D005FA44A /* CDYFoundation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CDYFoundation.podspec; sourceTree = "<group>"; };
 		EA6DF4BC1A834F3B005FA44A /* CDYFetchedCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYFetchedCollectionViewController.h; sourceTree = "<group>"; };
 		EA6DF4BD1A834F3B005FA44A /* CDYFetchedCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYFetchedCollectionViewController.m; sourceTree = "<group>"; };
+		EA94CC941A89CA40000E7980 /* CDYUserInputSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYUserInputSection.h; sourceTree = "<group>"; };
+		EA94CC951A89CA40000E7980 /* CDYUserInputSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYUserInputSection.m; sourceTree = "<group>"; };
+		EA94CC971A89CBAD000E7980 /* CDYUserInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYUserInputViewController.h; sourceTree = "<group>"; };
+		EA94CC981A89CBAD000E7980 /* CDYUserInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYUserInputViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +195,10 @@
 				EA6DF4BD1A834F3B005FA44A /* CDYFetchedCollectionViewController.m */,
 				EA6DF48B1A81F1DB005FA44A /* CDYFilledCollectionViewController.h */,
 				EA6DF48C1A81F1DB005FA44A /* CDYFilledCollectionViewController.m */,
+				EA94CC941A89CA40000E7980 /* CDYUserInputSection.h */,
+				EA94CC951A89CA40000E7980 /* CDYUserInputSection.m */,
+				EA94CC971A89CBAD000E7980 /* CDYUserInputViewController.h */,
+				EA94CC981A89CBAD000E7980 /* CDYUserInputViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -304,9 +314,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA6DF4661A81EF8B005FA44A /* AppDelegate.m in Sources */,
+				EA94CC991A89CBAD000E7980 /* CDYUserInputViewController.m in Sources */,
 				EA6DF4901A81F2F1005FA44A /* CDYArrayCollectionViewController.m in Sources */,
 				EA6DF4691A81EF8B005FA44A /* MasterViewController.m in Sources */,
 				EA6648FA1A835CAB008D3A8F /* CDYCoreDataChangeAction.m in Sources */,
+				EA94CC961A89CA40000E7980 /* CDYUserInputSection.m in Sources */,
 				EA6649111A84993C008D3A8F /* NSString+CDYUtils.m in Sources */,
 				EA6649181A853441008D3A8F /* CDYConstants.m in Sources */,
 				EA6DF48D1A81F1DB005FA44A /* CDYFilledCollectionViewController.m in Sources */,
