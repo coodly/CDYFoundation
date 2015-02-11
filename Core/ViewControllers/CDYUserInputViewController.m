@@ -55,7 +55,7 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 
     CDYUserInputSection *inputSection = self.presentedSections[indexPath.section];
-    UITableViewCell *cell = [inputSection cellAtRow:indexPath.section];
+    UITableViewCell *cell = [inputSection cellAtRow:indexPath.row];
     [self tappedCell:cell atIndexPath:indexPath];
 }
 

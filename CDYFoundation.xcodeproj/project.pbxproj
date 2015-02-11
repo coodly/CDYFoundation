@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA3F4E4F1A8B3A9100DFC7DA /* CDYFetchedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F4E4E1A8B3A9100DFC7DA /* CDYFetchedTableViewController.m */; };
 		EA6648FA1A835CAB008D3A8F /* CDYCoreDataChangeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6648F91A835CAB008D3A8F /* CDYCoreDataChangeAction.m */; };
 		EA6649111A84993C008D3A8F /* NSString+CDYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6649101A84993C008D3A8F /* NSString+CDYUtils.m */; };
 		EA6649181A853441008D3A8F /* CDYConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6649171A853441008D3A8F /* CDYConstants.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA3F4E4D1A8B3A9100DFC7DA /* CDYFetchedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYFetchedTableViewController.h; sourceTree = "<group>"; };
+		EA3F4E4E1A8B3A9100DFC7DA /* CDYFetchedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYFetchedTableViewController.m; sourceTree = "<group>"; };
 		EA6648F81A835CAB008D3A8F /* CDYCoreDataChangeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDYCoreDataChangeAction.h; sourceTree = "<group>"; };
 		EA6648F91A835CAB008D3A8F /* CDYCoreDataChangeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDYCoreDataChangeAction.m; sourceTree = "<group>"; };
 		EA66490F1A84993C008D3A8F /* NSString+CDYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CDYUtils.h"; sourceTree = "<group>"; };
@@ -193,6 +196,8 @@
 				EA6648F91A835CAB008D3A8F /* CDYCoreDataChangeAction.m */,
 				EA6DF4BC1A834F3B005FA44A /* CDYFetchedCollectionViewController.h */,
 				EA6DF4BD1A834F3B005FA44A /* CDYFetchedCollectionViewController.m */,
+				EA3F4E4D1A8B3A9100DFC7DA /* CDYFetchedTableViewController.h */,
+				EA3F4E4E1A8B3A9100DFC7DA /* CDYFetchedTableViewController.m */,
 				EA6DF48B1A81F1DB005FA44A /* CDYFilledCollectionViewController.h */,
 				EA6DF48C1A81F1DB005FA44A /* CDYFilledCollectionViewController.m */,
 				EA94CC941A89CA40000E7980 /* CDYUserInputSection.h */,
@@ -313,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3F4E4F1A8B3A9100DFC7DA /* CDYFetchedTableViewController.m in Sources */,
 				EA6DF4661A81EF8B005FA44A /* AppDelegate.m in Sources */,
 				EA94CC991A89CBAD000E7980 /* CDYUserInputViewController.m in Sources */,
 				EA6DF4901A81F2F1005FA44A /* CDYArrayCollectionViewController.m in Sources */,
